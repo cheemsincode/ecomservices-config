@@ -1,0 +1,21 @@
+# spring.datasource.url=jdbc:postgresql://localhost:5432/orderdb
+# spring.datasource.username=postgres
+# spring.datasource.password=password
+# spring.datasource.driver-class-name=org.postgresql.Driver
+build: 
+  id: 111
+  name: "Order Service - git - Config" 
+  version: 1.0.1
+  
+spring:
+  datasource:
+    url: jdbc:postgresql://localhost:5432/orderdb
+    username: postgres
+    password: password
+    driver-class-name: org.postgresql.Driver
+  jpa:
+    database: POSTGRESQL
+    show-sql: true
+    hibernate:
+      ddl-auto: create-drop
+    database-platform: org.hibernate.dialect.PostgresSQLDialect
