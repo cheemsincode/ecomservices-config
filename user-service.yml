@@ -1,0 +1,28 @@
+build: 
+  id: 1010
+  name: "User Service - git - Config" 
+  version: 1.0.2
+  
+spring:
+  data:
+    mongodb:
+      uri: mongodb://localhost:27017/userdb
+logging:
+  level:
+    org:
+      springframework:
+        data:
+          mongodb: DEBUG
+
+
+  # datasource:
+  #   url: jdbc:postgresql://localhost:5432/orderdb
+  #   username: postgres
+  #   password: password
+  #   driver-class-name: org.postgresql.Driver
+  # jpa:
+  #   database: POSTGRESQL
+  #   show-sql: true
+  #   hibernate:
+  #     ddl-auto: create-drop
+  #   database-platform: org.hibernate.dialect.PostgresSQLDialect
