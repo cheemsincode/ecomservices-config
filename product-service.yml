@@ -1,0 +1,17 @@
+build: 
+  id: 111
+  name: "Product Service - git - Config" 
+  version: 1.0.1
+
+spring:
+  datasource:
+    url: jdbc:postgresql://localhost:5432/productdb
+    username: postgres
+    password: password
+    driver-class-name: org.postgresql.Driver
+  jpa:
+    database: POSTGRESQL
+    show-sql: true
+    hibernate:
+      ddl-auto: create-drop
+    database-platform: org.hibernate.dialect.PostgresSQLDialect
