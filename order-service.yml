@@ -4,7 +4,7 @@
 # spring.datasource.driver-class-name=org.postgresql.Driver
 build: 
   id: 111
-  name: "Order Service - git - Config" 
+  name: "Order-Service-git-Config" 
   version: 1.0.1
   
 spring:
