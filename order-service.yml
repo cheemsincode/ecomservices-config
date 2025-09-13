@@ -8,6 +8,11 @@ build:
   version: 1.0.1
   
 spring:
+  rabbitmq:
+    host: localhost
+    port: 5672
+    username: guest
+    password: guest
   datasource:
     url: jdbc:postgresql://localhost:5432/orderdb
     username: postgres
