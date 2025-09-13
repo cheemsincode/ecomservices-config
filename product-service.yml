@@ -14,4 +14,4 @@ spring:
     show-sql: true
     hibernate:
       ddl-auto: create-drop
-    database-platform: org.hibernate.dialect.PostgresSQLDialect
+    database-platform: org.hibernate.dialect.PostgreSQLDialect
